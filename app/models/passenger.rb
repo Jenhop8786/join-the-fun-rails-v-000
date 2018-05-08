@@ -1,3 +1,4 @@
 class Passenger < ActiveRecord::Base
-  belongs_to :Rides 
+  has_many :Rides
+  
 end
