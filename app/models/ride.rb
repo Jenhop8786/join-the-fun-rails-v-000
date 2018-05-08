@@ -1,3 +1,3 @@
 class Ride < ActiveRecord::Base
-  belongs_to :Taxi
+  belongs_to :taxi
 end
